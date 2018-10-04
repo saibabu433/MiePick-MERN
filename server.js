@@ -69,14 +69,7 @@ app.post('/userdata', upload.any(), function(req, res) {
           console.log("not Suceess");
            res.status(500).json("no data");
         }else{ 
-           //res.json(filesdatas.userpics);
-          /* User.find({_id:useriddd},function(err,userpicsdata){
-            if(err){
-              res.status(500).json("no data");
-            }else{
-              res.json(userpicsdata[0].userpics);
-            }
-           })*/
+           
         }
       })
     }   
